@@ -1,0 +1,45 @@
+{margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #121111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+}
+.producto {
+    box-shadow: 10px 10px lightblue;
+    border: 1px solid #151313;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    
+}
+footer {
+    background-color: #0f0e0e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
